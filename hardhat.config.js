@@ -29,7 +29,7 @@ module.exports = {
             url: GOERLI_RPC_URL,
             accounts: [PRIVATE_KEY],
             chainId: 5,
-            blcokConfirmations: 6, // for etherscan to scan it onchain
+            blockConfirmations: 6, // for etherscan to scan it onchain
         },
         localhost: {
             url: "http://127.0.0.1:8545/",
@@ -52,7 +52,7 @@ module.exports = {
     namedAccounts: {
         deployer: {
             default: 0,
-            4: 1, // This means Network4(Rinkeby)'s indexed 1 account is the depolyer
+            5: 1, // This means Network5(Goerli)'s indexed 1 account is the depolyer
         },
         willmusubi: {
             default: 1,
